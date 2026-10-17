@@ -1,6 +1,0 @@
---resource
-/home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/rcc/qmake_SimulationsInterface.qrc
---resource
-/home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/rcc/SimulationsInterface_raw_qml_0.qrc
-/SimulationsInterface/src/ui/Main.qml
-/SimulationsInterface/src/ui/components/SimulationListItem.qml

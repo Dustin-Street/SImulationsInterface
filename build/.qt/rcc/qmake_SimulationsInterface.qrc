@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/SimulationsInterface">
-    <file alias="qmldir">/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterface/qmldir</file>
-  </qresource>
-</RCC>
-
