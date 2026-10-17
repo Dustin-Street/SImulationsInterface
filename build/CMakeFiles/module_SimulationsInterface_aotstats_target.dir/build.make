@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Exodus/projects/SimulationsInterface
+CMAKE_SOURCE_DIR = /home/Exodus/projects/major/SI/SimulationsInterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Exodus/projects/SimulationsInterface/build
+CMAKE_BINARY_DIR = /home/Exodus/projects/major/SI/SimulationsInterface/build
 
 # Utility rule file for module_SimulationsInterface_aotstats_target.
 
@@ -69,28 +69,44 @@ include CMakeFiles/module_SimulationsInterface_aotstats_target.dir/progress.make
 CMakeFiles/module_SimulationsInterface_aotstats_target: .rcc/qmlcache/module_SimulationsInterface.aotstats
 
 .rcc/qmlcache/module_SimulationsInterface.aotstats: .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp.aotstats
+.rcc/qmlcache/module_SimulationsInterface.aotstats: .rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp.aotstats
 .rcc/qmlcache/module_SimulationsInterface.aotstats: .rcc/qmlcache/module_SimulationsInterface.aotstatslist
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_SimulationsInterface.aotstats"
-	/usr/lib/qt6/libexec/qmlaotstats aggregate /home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/module_SimulationsInterface.aotstatslist /home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/module_SimulationsInterface.aotstats
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_SimulationsInterface.aotstats"
+	/usr/lib/qt6/libexec/qmlaotstats aggregate /home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/module_SimulationsInterface.aotstatslist /home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/module_SimulationsInterface.aotstats
 
 .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-.rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp: /home/Exodus/projects/SimulationsInterface/src/ui/Main.qml
+.rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp: /home/Exodus/projects/major/SI/SimulationsInterface/src/ui/Main.qml
 .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp: .qt/rcc/qmake_SimulationsInterface.qrc
 .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp: .qt/rcc/SimulationsInterface_raw_qml_0.qrc
 .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp: SimulationsInterface/SimulationsInterface.qmltypes
 .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp: SimulationsInterface/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp, .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp.aotstats"
-	/usr/bin/cmake -E make_directory /home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui
-	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /SimulationsInterface/src/ui/Main.qml -I /home/Exodus/projects/SimulationsInterface/build/ -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/Exodus/projects/SimulationsInterface/build/SimulationsInterface/qmldir --resource /home/Exodus/projects/SimulationsInterface/build/.qt/rcc/qmake_SimulationsInterface.qrc --resource /home/Exodus/projects/SimulationsInterface/build/.qt/rcc/SimulationsInterface_raw_qml_0.qrc --dump-aot-stats "--module-id=SimulationsInterface(SimulationsInterface)" -o /home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp /home/Exodus/projects/SimulationsInterface/src/ui/Main.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp, .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui
+	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /SimulationsInterface/src/ui/Main.qml -I /home/Exodus/projects/major/SI/SimulationsInterface/build/ -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterface/qmldir --resource /home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/rcc/qmake_SimulationsInterface.qrc --resource /home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/rcc/SimulationsInterface_raw_qml_0.qrc --dump-aot-stats "--module-id=SimulationsInterface(SimulationsInterface)" -o /home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp /home/Exodus/projects/major/SI/SimulationsInterface/src/ui/Main.qml
 
 .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp.aotstats: .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp.aotstats
+
+.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
+.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp: /home/Exodus/projects/major/SI/SimulationsInterface/src/ui/components/SimulationListItem.qml
+.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp: .qt/rcc/qmake_SimulationsInterface.qrc
+.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp: .qt/rcc/SimulationsInterface_raw_qml_0.qrc
+.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp: SimulationsInterface/SimulationsInterface.qmltypes
+.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp: SimulationsInterface/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp, .rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui/components
+	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /SimulationsInterface/src/ui/components/SimulationListItem.qml -I /home/Exodus/projects/major/SI/SimulationsInterface/build/ -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterface/qmldir --resource /home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/rcc/qmake_SimulationsInterface.qrc --resource /home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/rcc/SimulationsInterface_raw_qml_0.qrc --dump-aot-stats "--module-id=SimulationsInterface(SimulationsInterface)" -o /home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp /home/Exodus/projects/major/SI/SimulationsInterface/src/ui/components/SimulationListItem.qml
+
+.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp.aotstats: .rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp.aotstats
 
 CMakeFiles/module_SimulationsInterface_aotstats_target.dir/codegen:
 .PHONY : CMakeFiles/module_SimulationsInterface_aotstats_target.dir/codegen
 
 module_SimulationsInterface_aotstats_target: .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp
 module_SimulationsInterface_aotstats_target: .rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp.aotstats
+module_SimulationsInterface_aotstats_target: .rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp
+module_SimulationsInterface_aotstats_target: .rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp.aotstats
 module_SimulationsInterface_aotstats_target: .rcc/qmlcache/module_SimulationsInterface.aotstats
 module_SimulationsInterface_aotstats_target: CMakeFiles/module_SimulationsInterface_aotstats_target
 module_SimulationsInterface_aotstats_target: CMakeFiles/module_SimulationsInterface_aotstats_target.dir/build.make
@@ -105,6 +121,6 @@ CMakeFiles/module_SimulationsInterface_aotstats_target.dir/clean:
 .PHONY : CMakeFiles/module_SimulationsInterface_aotstats_target.dir/clean
 
 CMakeFiles/module_SimulationsInterface_aotstats_target.dir/depend:
-	cd /home/Exodus/projects/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build/CMakeFiles/module_SimulationsInterface_aotstats_target.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/Exodus/projects/major/SI/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/module_SimulationsInterface_aotstats_target.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/module_SimulationsInterface_aotstats_target.dir/depend
 

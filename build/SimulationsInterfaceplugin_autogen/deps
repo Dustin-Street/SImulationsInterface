@@ -1,10 +1,10 @@
 SimulationsInterfaceplugin_autogen/timestamp: \
-	/home/Exodus/projects/SimulationsInterface/CMakeLists.txt \
-	/home/Exodus/projects/SimulationsInterface/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake \
-	/home/Exodus/projects/SimulationsInterface/build/CMakeFiles/3.31.6/CMakeSystem.cmake \
-	/home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp \
-	/home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin_in.cpp \
-	/home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/moc_predefs.h \
+	/home/Exodus/projects/major/SI/SimulationsInterface/CMakeLists.txt \
+	/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake \
+	/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/3.31.6/CMakeSystem.cmake \
+	/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp \
+	/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin_in.cpp \
+	/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/moc_predefs.h \
 	/usr/include/asm-generic/bitsperlong.h \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
@@ -658,6 +658,7 @@ SimulationsInterfaceplugin_autogen/timestamp: \
 	/usr/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake \
 	/usr/share/cmake-3.31/Modules/FindPackageMessage.cmake \
 	/usr/share/cmake-3.31/Modules/FindPkgConfig.cmake \
+	/usr/share/cmake-3.31/Modules/FindSQLite3.cmake \
 	/usr/share/cmake-3.31/Modules/FindThreads.cmake \
 	/usr/share/cmake-3.31/Modules/FindVulkan.cmake \
 	/usr/share/cmake-3.31/Modules/GNUInstallDirs.cmake \

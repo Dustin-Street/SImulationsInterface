@@ -17,7 +17,10 @@ set(CMAKE_AUTOUIC ON)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/includes)
 
+# SQLite
+find_package(SQLite3 REQUIRED)
 
+# Qt6
 find_package(Qt6 REQUIRED COMPONENTS Quick Qml QuickControls2 Core)
 
 qt_add_qml_module(${TEMPLATE_PROJECT_NAME}
@@ -26,12 +29,14 @@ qt_add_qml_module(${TEMPLATE_PROJECT_NAME}
     OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/${TEMPLATE_QML_URI}
     QML_FILES
         src/ui/Main.qml
+        src/ui/components/SimulationListItem.qml
 )
 
 
 add_executable(${TEMPLATE_EXECUTABLE_NAME}
     src/main.cpp
     src/Simulation.cpp
+    src/memory/database.cpp
     src/simulationRegistery.cpp
     src/ui/controllers/SimulationController.cpp
     src/ui/controllers/includes/SimulationController.h
@@ -44,6 +49,7 @@ target_link_libraries(${TEMPLATE_EXECUTABLE_NAME}
     Qt6::Qml
     Qt6::QuickControls2
     Qt6::Core
+    SQLite::SQLite3
     ${TEMPLATE_PROJECT_NAME}
     
 )

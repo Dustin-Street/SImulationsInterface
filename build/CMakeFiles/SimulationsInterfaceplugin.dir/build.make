@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Exodus/projects/SimulationsInterface
+CMAKE_SOURCE_DIR = /home/Exodus/projects/major/SI/SimulationsInterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Exodus/projects/SimulationsInterface/build
+CMAKE_BINARY_DIR = /home/Exodus/projects/major/SI/SimulationsInterface/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SimulationsInterfaceplugin.dir/depend.make
@@ -75,30 +75,30 @@ CMakeFiles/SimulationsInterfaceplugin.dir/codegen:
 CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.o: CMakeFiles/SimulationsInterfaceplugin.dir/flags.make
 CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.o: SimulationsInterfaceplugin_autogen/mocs_compilation.cpp
 CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.o: CMakeFiles/SimulationsInterfaceplugin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.o -MF CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.o -c /home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.o -MF CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.o -c /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp
 
 CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp > CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp > CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp -o CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp -o CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o: CMakeFiles/SimulationsInterfaceplugin.dir/flags.make
 CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o: SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp
 CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o: CMakeFiles/SimulationsInterfaceplugin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o -MF CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o.d -o CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o -c /home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o -MF CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o.d -o CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o -c /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp
 
 CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp > CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp > CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.i
 
 CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp -o CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp -o CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.s
 
 # Object files for target SimulationsInterfaceplugin
 SimulationsInterfaceplugin_OBJECTS = \
@@ -117,7 +117,7 @@ SimulationsInterface/libSimulationsInterfaceplugin.so: /usr/lib/x86_64-linux-gnu
 SimulationsInterface/libSimulationsInterfaceplugin.so: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.8.2
 SimulationsInterface/libSimulationsInterfaceplugin.so: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.8.2
 SimulationsInterface/libSimulationsInterfaceplugin.so: CMakeFiles/SimulationsInterfaceplugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module SimulationsInterface/libSimulationsInterfaceplugin.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module SimulationsInterface/libSimulationsInterfaceplugin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimulationsInterfaceplugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/SimulationsInterfaceplugin.dir/clean:
 .PHONY : CMakeFiles/SimulationsInterfaceplugin.dir/clean
 
 CMakeFiles/SimulationsInterfaceplugin.dir/depend:
-	cd /home/Exodus/projects/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build/CMakeFiles/SimulationsInterfaceplugin.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/Exodus/projects/major/SI/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/SimulationsInterfaceplugin.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SimulationsInterfaceplugin.dir/depend
 

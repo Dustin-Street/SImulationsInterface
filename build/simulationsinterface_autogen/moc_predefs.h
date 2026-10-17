@@ -239,7 +239,7 @@
 #define __FLT32_MANT_DIG__ 24
 #define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
 #define SIZEOF_DPTR (sizeof(void*))
-#define QML_IMPORT_PATH "/home/Exodus/projects/SimulationsInterface/build"
+#define QML_IMPORT_PATH "/home/Exodus/projects/major/SI/SimulationsInterface/build"
 #define __FLT32X_MIN_EXP__ (-1021)
 #define __cpp_aggregate_paren_init 201902L
 #define __STDC_IEC_60559_COMPLEX__ 201404L

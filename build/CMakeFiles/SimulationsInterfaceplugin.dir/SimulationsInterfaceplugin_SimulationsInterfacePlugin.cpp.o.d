@@ -1,5 +1,5 @@
 CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp.o: \
- /home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp \
+ /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtsymbolmacros.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompilerdetection.h \
@@ -418,5 +418,5 @@ CMakeFiles/SimulationsInterfaceplugin.dir/SimulationsInterfaceplugin_Simulations
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetwork-config.h \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkexports.h \
  /usr/include/x86_64-linux-gnu/qt6/QtQml/qtqmlexports.h \
- /home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/include/SimulationsInterfaceplugin_SimulationsInterfacePlugin.moc \
+ /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/include/SimulationsInterfaceplugin_SimulationsInterfacePlugin.moc \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmochelpers.h

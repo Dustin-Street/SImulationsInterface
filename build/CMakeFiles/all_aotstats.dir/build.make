@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Exodus/projects/SimulationsInterface
+CMAKE_SOURCE_DIR = /home/Exodus/projects/major/SI/SimulationsInterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Exodus/projects/SimulationsInterface/build
+CMAKE_BINARY_DIR = /home/Exodus/projects/major/SI/SimulationsInterface/build
 
 # Utility rule file for all_aotstats.
 
@@ -67,12 +67,12 @@ include CMakeFiles/all_aotstats.dir/compiler_depend.make
 include CMakeFiles/all_aotstats.dir/progress.make
 
 CMakeFiles/all_aotstats: .rcc/qmlcache/all_aotstats.txt
-	/usr/bin/cmake -E cat /home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/all_aotstats.txt
+	/usr/bin/cmake -E cat /home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/all_aotstats.txt
 
 .rcc/qmlcache/all_aotstats.aotstats: .rcc/qmlcache/module_SimulationsInterface.aotstats
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/all_aotstats.aotstats, .rcc/qmlcache/all_aotstats.txt"
-	/usr/lib/qt6/libexec/qmlaotstats aggregate /home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/all_aotstats.aotstatslist /home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/all_aotstats.aotstats
-	/usr/lib/qt6/libexec/qmlaotstats format /home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/all_aotstats.aotstats /home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/all_aotstats.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/all_aotstats.aotstats, .rcc/qmlcache/all_aotstats.txt"
+	/usr/lib/qt6/libexec/qmlaotstats aggregate /home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/all_aotstats.aotstatslist /home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/all_aotstats.aotstats
+	/usr/lib/qt6/libexec/qmlaotstats format /home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/all_aotstats.aotstats /home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/all_aotstats.txt
 
 .rcc/qmlcache/all_aotstats.txt: .rcc/qmlcache/all_aotstats.aotstats
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/all_aotstats.txt
@@ -95,6 +95,6 @@ CMakeFiles/all_aotstats.dir/clean:
 .PHONY : CMakeFiles/all_aotstats.dir/clean
 
 CMakeFiles/all_aotstats.dir/depend:
-	cd /home/Exodus/projects/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build/CMakeFiles/all_aotstats.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/Exodus/projects/major/SI/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/all_aotstats.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/all_aotstats.dir/depend
 

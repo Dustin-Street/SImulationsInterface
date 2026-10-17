@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Exodus/projects/SimulationsInterface
+CMAKE_SOURCE_DIR = /home/Exodus/projects/major/SI/SimulationsInterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Exodus/projects/SimulationsInterface/build
+CMAKE_BINARY_DIR = /home/Exodus/projects/major/SI/SimulationsInterface/build
 
 # Utility rule file for SimulationsInterface_qmllint_json.
 
@@ -67,9 +67,10 @@ include CMakeFiles/SimulationsInterface_qmllint_json.dir/compiler_depend.make
 include CMakeFiles/SimulationsInterface_qmllint_json.dir/progress.make
 
 CMakeFiles/SimulationsInterface_qmllint_json: /usr/lib/qt6/bin/qmllint
-CMakeFiles/SimulationsInterface_qmllint_json: /home/Exodus/projects/SimulationsInterface/src/ui/Main.qml
+CMakeFiles/SimulationsInterface_qmllint_json: /home/Exodus/projects/major/SI/SimulationsInterface/src/ui/Main.qml
+CMakeFiles/SimulationsInterface_qmllint_json: /home/Exodus/projects/major/SI/SimulationsInterface/src/ui/components/SimulationListItem.qml
 CMakeFiles/SimulationsInterface_qmllint_json: .rcc/qmllint/SimulationsInterface_json.rsp
-	cd /home/Exodus/projects/SimulationsInterface && /usr/lib/qt6/bin/qmllint @/home/Exodus/projects/SimulationsInterface/build/.rcc/qmllint/SimulationsInterface_json.rsp
+	cd /home/Exodus/projects/major/SI/SimulationsInterface && /usr/lib/qt6/bin/qmllint @/home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmllint/SimulationsInterface_json.rsp
 
 CMakeFiles/SimulationsInterface_qmllint_json.dir/codegen:
 .PHONY : CMakeFiles/SimulationsInterface_qmllint_json.dir/codegen
@@ -87,6 +88,6 @@ CMakeFiles/SimulationsInterface_qmllint_json.dir/clean:
 .PHONY : CMakeFiles/SimulationsInterface_qmllint_json.dir/clean
 
 CMakeFiles/SimulationsInterface_qmllint_json.dir/depend:
-	cd /home/Exodus/projects/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build/CMakeFiles/SimulationsInterface_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/Exodus/projects/major/SI/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/SimulationsInterface_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SimulationsInterface_qmllint_json.dir/depend
 

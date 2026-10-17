@@ -6,6 +6,7 @@ libSimulationsInterface.so: \
   CMakeFiles/SimulationsInterface.dir/build/.qt/rcc/qrc_qmake_SimulationsInterface.cpp.o \
   CMakeFiles/SimulationsInterface.dir/build/.rcc/qmlcache/SimulationsInterface_qmlcache_loader.cpp.o \
   CMakeFiles/SimulationsInterface.dir/build/.rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp.o \
+  CMakeFiles/SimulationsInterface.dir/build/.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp.o \
   CMakeFiles/SimulationsInterface.dir/build/.qt/rcc/qrc_SimulationsInterface_raw_qml_0.cpp.o \
   /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.8.2 \
   /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.8.2 \
@@ -48,6 +49,8 @@ CMakeFiles/SimulationsInterface.dir/build/.qt/rcc/qrc_qmake_SimulationsInterface
 CMakeFiles/SimulationsInterface.dir/build/.rcc/qmlcache/SimulationsInterface_qmlcache_loader.cpp.o:
 
 CMakeFiles/SimulationsInterface.dir/build/.rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp.o:
+
+CMakeFiles/SimulationsInterface.dir/build/.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp.o:
 
 CMakeFiles/SimulationsInterface.dir/build/.qt/rcc/qrc_SimulationsInterface_raw_qml_0.cpp.o:
 

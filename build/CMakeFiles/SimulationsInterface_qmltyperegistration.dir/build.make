@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Exodus/projects/SimulationsInterface
+CMAKE_SOURCE_DIR = /home/Exodus/projects/major/SI/SimulationsInterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Exodus/projects/SimulationsInterface/build
+CMAKE_BINARY_DIR = /home/Exodus/projects/major/SI/SimulationsInterface/build
 
 # Utility rule file for SimulationsInterface_qmltyperegistration.
 
@@ -75,34 +75,34 @@ simulationsinterface_qmltyperegistrations.cpp: /usr/lib/qt6/libexec/qmltyperegis
 simulationsinterface_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/qt6/metatypes/qt6qml_none_metatypes.json
 simulationsinterface_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/qt6/metatypes/qt6core_none_metatypes.json
 simulationsinterface_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/qt6/metatypes/qt6network_none_metatypes.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target SimulationsInterface"
-	/usr/lib/qt6/libexec/qmltyperegistrar --generate-qmltypes=/home/Exodus/projects/SimulationsInterface/build/SimulationsInterface/SimulationsInterface.qmltypes --import-name=SimulationsInterface --major-version=1 --minor-version=0 @/home/Exodus/projects/SimulationsInterface/build/qmltypes/SimulationsInterface_foreign_types.txt -o /home/Exodus/projects/SimulationsInterface/build/simulationsinterface_qmltyperegistrations.cpp /home/Exodus/projects/SimulationsInterface/build/meta_types/qt6simulationsinterface_metatypes.json
-	/usr/bin/cmake -E make_directory /home/Exodus/projects/SimulationsInterface/build/.qt/qmltypes
-	/usr/bin/cmake -E touch /home/Exodus/projects/SimulationsInterface/build/.qt/qmltypes/SimulationsInterface.qmltypes
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target SimulationsInterface"
+	/usr/lib/qt6/libexec/qmltyperegistrar --generate-qmltypes=/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterface/SimulationsInterface.qmltypes --import-name=SimulationsInterface --major-version=1 --minor-version=0 @/home/Exodus/projects/major/SI/SimulationsInterface/build/qmltypes/SimulationsInterface_foreign_types.txt -o /home/Exodus/projects/major/SI/SimulationsInterface/build/simulationsinterface_qmltyperegistrations.cpp /home/Exodus/projects/major/SI/SimulationsInterface/build/meta_types/qt6simulationsinterface_metatypes.json
+	/usr/bin/cmake -E make_directory /home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/qmltypes
+	/usr/bin/cmake -E touch /home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/qmltypes/SimulationsInterface.qmltypes
 
 SimulationsInterface/SimulationsInterface.qmltypes: simulationsinterface_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate SimulationsInterface/SimulationsInterface.qmltypes
 
 meta_types/qt6simulationsinterface_metatypes.json: meta_types/qt6simulationsinterface_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating meta_types/qt6simulationsinterface_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating meta_types/qt6simulationsinterface_metatypes.json"
 	/usr/bin/cmake -E true
 
 meta_types/qt6simulationsinterface_metatypes.json.gen: /usr/lib/qt6/libexec/moc
 meta_types/qt6simulationsinterface_metatypes.json.gen: meta_types/SimulationsInterface_json_file_list.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running moc --collect-json for target SimulationsInterface"
-	/usr/lib/qt6/libexec/moc -o /home/Exodus/projects/SimulationsInterface/build/meta_types/qt6simulationsinterface_metatypes.json.gen --collect-json @/home/Exodus/projects/SimulationsInterface/build/meta_types/SimulationsInterface_json_file_list.txt
-	/usr/bin/cmake -E copy_if_different /home/Exodus/projects/SimulationsInterface/build/meta_types/qt6simulationsinterface_metatypes.json.gen /home/Exodus/projects/SimulationsInterface/build/meta_types/qt6simulationsinterface_metatypes.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running moc --collect-json for target SimulationsInterface"
+	/usr/lib/qt6/libexec/moc -o /home/Exodus/projects/major/SI/SimulationsInterface/build/meta_types/qt6simulationsinterface_metatypes.json.gen --collect-json @/home/Exodus/projects/major/SI/SimulationsInterface/build/meta_types/SimulationsInterface_json_file_list.txt
+	/usr/bin/cmake -E copy_if_different /home/Exodus/projects/major/SI/SimulationsInterface/build/meta_types/qt6simulationsinterface_metatypes.json.gen /home/Exodus/projects/major/SI/SimulationsInterface/build/meta_types/qt6simulationsinterface_metatypes.json
 
 meta_types/SimulationsInterface_json_file_list.txt: /usr/lib/qt6/libexec/cmake_automoc_parser
 meta_types/SimulationsInterface_json_file_list.txt: SimulationsInterface_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running AUTOMOC file extraction for target SimulationsInterface"
-	/usr/lib/qt6/libexec/cmake_automoc_parser --cmake-autogen-cache-file /home/Exodus/projects/SimulationsInterface/build/CMakeFiles/SimulationsInterface_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/Exodus/projects/SimulationsInterface/build/CMakeFiles/SimulationsInterface_autogen.dir/AutogenInfo.json --output-file-path /home/Exodus/projects/SimulationsInterface/build/meta_types/SimulationsInterface_json_file_list.txt --timestamp-file-path /home/Exodus/projects/SimulationsInterface/build/meta_types/SimulationsInterface_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/Exodus/projects/SimulationsInterface/build/SimulationsInterface_autogen/include
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running AUTOMOC file extraction for target SimulationsInterface"
+	/usr/lib/qt6/libexec/cmake_automoc_parser --cmake-autogen-cache-file /home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/SimulationsInterface_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/SimulationsInterface_autogen.dir/AutogenInfo.json --output-file-path /home/Exodus/projects/major/SI/SimulationsInterface/build/meta_types/SimulationsInterface_json_file_list.txt --timestamp-file-path /home/Exodus/projects/major/SI/SimulationsInterface/build/meta_types/SimulationsInterface_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterface_autogen/include
 
 SimulationsInterface_autogen/timestamp: /usr/lib/qt6/libexec/moc
 SimulationsInterface_autogen/timestamp: CMakeFiles/SimulationsInterface_qmltyperegistration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Automatic MOC and UIC for target SimulationsInterface"
-	/usr/bin/cmake -E cmake_autogen /home/Exodus/projects/SimulationsInterface/build/CMakeFiles/SimulationsInterface_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/Exodus/projects/SimulationsInterface/build/SimulationsInterface_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Automatic MOC and UIC for target SimulationsInterface"
+	/usr/bin/cmake -E cmake_autogen /home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/SimulationsInterface_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterface_autogen/timestamp
 
 CMakeFiles/SimulationsInterface_qmltyperegistration.dir/codegen:
 .PHONY : CMakeFiles/SimulationsInterface_qmltyperegistration.dir/codegen
@@ -126,6 +126,6 @@ CMakeFiles/SimulationsInterface_qmltyperegistration.dir/clean:
 .PHONY : CMakeFiles/SimulationsInterface_qmltyperegistration.dir/clean
 
 CMakeFiles/SimulationsInterface_qmltyperegistration.dir/depend:
-	cd /home/Exodus/projects/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build/CMakeFiles/SimulationsInterface_qmltyperegistration.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/Exodus/projects/major/SI/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/SimulationsInterface_qmltyperegistration.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SimulationsInterface_qmltyperegistration.dir/depend
 

@@ -6,7 +6,7 @@
 class Simulation
 {
 public:
-    Simulation(int id, const std::string& name, double simulationData);
+    Simulation(int id, const std::string &name, double simulationData);
     ~Simulation();
 
     double runSimulation(double value1, double value2);

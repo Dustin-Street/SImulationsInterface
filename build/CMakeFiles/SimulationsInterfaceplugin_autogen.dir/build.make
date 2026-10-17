@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Exodus/projects/SimulationsInterface
+CMAKE_SOURCE_DIR = /home/Exodus/projects/major/SI/SimulationsInterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Exodus/projects/SimulationsInterface/build
+CMAKE_BINARY_DIR = /home/Exodus/projects/major/SI/SimulationsInterface/build
 
 # Utility rule file for SimulationsInterfaceplugin_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/SimulationsInterfaceplugin_autogen: SimulationsInterfaceplugin_autoge
 
 SimulationsInterfaceplugin_autogen/timestamp: /usr/lib/qt6/libexec/moc
 SimulationsInterfaceplugin_autogen/timestamp: CMakeFiles/SimulationsInterfaceplugin_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target SimulationsInterfaceplugin"
-	/usr/bin/cmake -E cmake_autogen /home/Exodus/projects/SimulationsInterface/build/CMakeFiles/SimulationsInterfaceplugin_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target SimulationsInterfaceplugin"
+	/usr/bin/cmake -E cmake_autogen /home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/SimulationsInterfaceplugin_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/timestamp
 
 CMakeFiles/SimulationsInterfaceplugin_autogen.dir/codegen:
 .PHONY : CMakeFiles/SimulationsInterfaceplugin_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/SimulationsInterfaceplugin_autogen.dir/clean:
 .PHONY : CMakeFiles/SimulationsInterfaceplugin_autogen.dir/clean
 
 CMakeFiles/SimulationsInterfaceplugin_autogen.dir/depend:
-	cd /home/Exodus/projects/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build/CMakeFiles/SimulationsInterfaceplugin_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/Exodus/projects/major/SI/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/SimulationsInterfaceplugin_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SimulationsInterfaceplugin_autogen.dir/depend
 

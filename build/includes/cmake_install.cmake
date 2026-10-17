@@ -1,4 +1,4 @@
-# Install script for directory: /home/Exodus/projects/SimulationsInterface/includes
+# Install script for directory: /home/Exodus/projects/major/SI/SimulationsInterface/includes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/Exodus/projects/SimulationsInterface/build/includes/install_local_manifest.txt"
+  file(WRITE "/home/Exodus/projects/major/SI/SimulationsInterface/build/includes/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

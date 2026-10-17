@@ -1,5 +1,5 @@
 CMakeFiles/SimulationsInterface.dir/simulationsinterface_qmltyperegistrations.cpp.o: \
- /home/Exodus/projects/SimulationsInterface/build/simulationsinterface_qmltyperegistrations.cpp \
+ /home/Exodus/projects/major/SI/SimulationsInterface/build/simulationsinterface_qmltyperegistrations.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqml.h \
  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlprivate.h \

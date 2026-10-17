@@ -1,5 +1,5 @@
 CMakeFiles/simulationsinterface.dir/src/main.cpp.o: \
- /home/Exodus/projects/SimulationsInterface/src/main.cpp \
+ /home/Exodus/projects/major/SI/SimulationsInterface/src/main.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QGuiApplication \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h \
@@ -463,13 +463,26 @@ CMakeFiles/simulationsinterface.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
- /home/Exodus/projects/SimulationsInterface/src/./ui/controllers/includes/SimulationController.h \
+ /home/Exodus/projects/major/SI/SimulationsInterface/src/./ui/controllers/includes/SimulationController.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
- /home/Exodus/projects/SimulationsInterface/includes/Simulation.h \
- /home/Exodus/projects/SimulationsInterface/includes/simulationRegistery.h \
- /home/Exodus/projects/SimulationsInterface/includes/Simulation.h \
- /home/Exodus/projects/SimulationsInterface/includes/idGenerator.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QVariantList \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariantlist.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QVariant \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QVariantMap \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariantmap.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringLiteral \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringliteral.h \
+ /home/Exodus/projects/major/SI/SimulationsInterface/includes/Simulation.h \
+ /home/Exodus/projects/major/SI/SimulationsInterface/includes/simulationRegistery.h \
+ /home/Exodus/projects/major/SI/SimulationsInterface/includes/Simulation.h \
+ /home/Exodus/projects/major/SI/SimulationsInterface/includes/idGenerator.h \
  /usr/include/c++/14/unordered_set \
  /usr/include/c++/14/bits/unordered_set.h /usr/include/c++/14/iostream \
  /usr/include/c++/14/random /usr/include/c++/14/bits/random.h \

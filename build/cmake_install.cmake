@@ -1,4 +1,4 @@
-# Install script for directory: /home/Exodus/projects/SimulationsInterface
+# Install script for directory: /home/Exodus/projects/major/SI/SimulationsInterface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,26 +44,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/Exodus/projects/SimulationsInterface/build/src/cmake_install.cmake")
+  include("/home/Exodus/projects/major/SI/SimulationsInterface/build/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/Exodus/projects/SimulationsInterface/build/tests/cmake_install.cmake")
+  include("/home/Exodus/projects/major/SI/SimulationsInterface/build/tests/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/Exodus/projects/SimulationsInterface/build/includes/cmake_install.cmake")
+  include("/home/Exodus/projects/major/SI/SimulationsInterface/build/includes/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/Exodus/projects/SimulationsInterface/build/docs/cmake_install.cmake")
+  include("/home/Exodus/projects/major/SI/SimulationsInterface/build/docs/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/qml/SimulationsInterface" TYPE DIRECTORY FILES "/home/Exodus/projects/SimulationsInterface/build/SimulationsInterface/" FILES_MATCHING REGEX "/[^/]*$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/qml/SimulationsInterface" TYPE DIRECTORY FILES "/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterface/" FILES_MATCHING REGEX "/[^/]*$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,12 +73,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/qml/SimulationsInterface/libSimulationsInterfaceplugin.so"
          RPATH "\$ORIGIN/../../lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/qml/SimulationsInterface" TYPE MODULE FILES "/home/Exodus/projects/SimulationsInterface/build/SimulationsInterface/libSimulationsInterfaceplugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/qml/SimulationsInterface" TYPE MODULE FILES "/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterface/libSimulationsInterfaceplugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/qml/SimulationsInterface/libSimulationsInterfaceplugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/qml/SimulationsInterface/libSimulationsInterfaceplugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/qml/SimulationsInterface/libSimulationsInterfaceplugin.so"
-         OLD_RPATH "/home/Exodus/projects/SimulationsInterface/build:"
+         OLD_RPATH "/home/Exodus/projects/major/SI/SimulationsInterface/build:"
          NEW_RPATH "\$ORIGIN/../../lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/qml/SimulationsInterface/libSimulationsInterfaceplugin.so")
@@ -93,7 +93,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimulationsInterface.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/Exodus/projects/SimulationsInterface/build/libSimulationsInterface.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/Exodus/projects/major/SI/SimulationsInterface/build/libSimulationsInterface.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimulationsInterface.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimulationsInterface.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -112,12 +112,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/simulationsinterface"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/Exodus/projects/SimulationsInterface/build/simulationsinterface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/Exodus/projects/major/SI/SimulationsInterface/build/simulationsinterface")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/simulationsinterface" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/simulationsinterface")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/simulationsinterface"
-         OLD_RPATH "/home/Exodus/projects/SimulationsInterface/build:"
+         OLD_RPATH "/home/Exodus/projects/major/SI/SimulationsInterface/build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/simulationsinterface")
@@ -128,7 +128,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/Exodus/projects/SimulationsInterface/build/install_local_manifest.txt"
+  file(WRITE "/home/Exodus/projects/major/SI/SimulationsInterface/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -144,6 +144,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/Exodus/projects/SimulationsInterface/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/Exodus/projects/major/SI/SimulationsInterface/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "/home/Exodus/projects/SimulationsInterface/build/simulationsinterface_autogen",
-	"CMAKE_BINARY_DIR" : "/home/Exodus/projects/SimulationsInterface/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/Exodus/projects/SimulationsInterface/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/Exodus/projects/SimulationsInterface",
+	"BUILD_DIR" : "/home/Exodus/projects/major/SI/SimulationsInterface/build/simulationsinterface_autogen",
+	"CMAKE_BINARY_DIR" : "/home/Exodus/projects/major/SI/SimulationsInterface/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/Exodus/projects/major/SI/SimulationsInterface/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/Exodus/projects/major/SI/SimulationsInterface",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/Exodus/projects/SimulationsInterface/CMakeLists.txt",
-		"/home/Exodus/projects/SimulationsInterface/build/CMakeFiles/3.31.6/CMakeSystem.cmake",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/CMakeLists.txt",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/3.31.6/CMakeSystem.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake",
-		"/home/Exodus/projects/SimulationsInterface/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake",
@@ -31,6 +31,12 @@
 		"/usr/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake",
 		"/usr/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake",
 		"/usr/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake",
+		"/usr/share/cmake-3.31/Modules/FindSQLite3.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageMessage.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake",
@@ -306,27 +312,33 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
-		"/home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin_in.cpp"
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_SimulationsInterfacePlugin_in.cpp"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/Exodus/projects/SimulationsInterface",
+	"CMAKE_SOURCE_DIR" : "/home/Exodus/projects/major/SI/SimulationsInterface",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/Exodus/projects/SimulationsInterface/build/simulationsinterface_autogen/deps",
+	"DEP_FILE" : "/home/Exodus/projects/major/SI/SimulationsInterface/build/simulationsinterface_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "simulationsinterface_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/Exodus/projects/SimulationsInterface/src/ui/controllers/includes/SimulationController.h",
+			"/home/Exodus/projects/major/SI/SimulationsInterface/src/memory/database.h",
+			"MU",
+			"KY5IG7USXH/moc_database.cpp",
+			null
+		],
+		[
+			"/home/Exodus/projects/major/SI/SimulationsInterface/src/ui/controllers/includes/SimulationController.h",
 			"MU",
 			"PXAZDRREDM/moc_SimulationController.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/Exodus/projects/SimulationsInterface/build/simulationsinterface_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/Exodus/projects/SimulationsInterface/build/simulationsinterface_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/Exodus/projects/major/SI/SimulationsInterface/build/simulationsinterface_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/Exodus/projects/major/SI/SimulationsInterface/build/simulationsinterface_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
-		"QML_IMPORT_PATH=\"/home/Exodus/projects/SimulationsInterface/build\"",
+		"QML_IMPORT_PATH=\"/home/Exodus/projects/major/SI/SimulationsInterface/build\"",
 		"QML_MODULE_URI=\"SimulationsInterface\"",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
@@ -350,8 +362,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/Exodus/projects/SimulationsInterface/includes",
-		"/home/Exodus/projects/SimulationsInterface/src/ui/controllers/includes",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/includes",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/src/ui/controllers/includes",
 		"/usr/include/x86_64-linux-gnu/qt6/QtQuick",
 		"/usr/include/x86_64-linux-gnu/qt6",
 		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
@@ -393,46 +405,56 @@
 		"-c",
 		"/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/Exodus/projects/SimulationsInterface/build/simulationsinterface_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/Exodus/projects/major/SI/SimulationsInterface/build/simulationsinterface_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/Exodus/projects/SimulationsInterface/build/.qt/rcc/qrc_SimulationsInterface_raw_qml_0.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/.qt/rcc/qrc_qmake_SimulationsInterface.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_qmlcache_loader.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/SimulationsInterface_autogen/mocs_compilation.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/simulationsinterface_qmltyperegistrations.cpp"
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/rcc/qrc_SimulationsInterface_raw_qml_0.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/rcc/qrc_qmake_SimulationsInterface.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_qmlcache_loader.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterface_autogen/mocs_compilation.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/simulationsinterface_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 16,
-	"PARSE_CACHE_FILE" : "/home/Exodus/projects/SimulationsInterface/build/CMakeFiles/simulationsinterface_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/simulationsinterface_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 8,
-	"SETTINGS_FILE" : "/home/Exodus/projects/SimulationsInterface/build/CMakeFiles/simulationsinterface_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/simulationsinterface_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/Exodus/projects/SimulationsInterface/src/Simulation.cpp",
-			"MU",
-			null
-		],
-		[ "/home/Exodus/projects/SimulationsInterface/src/main.cpp", "MU", null ],
-		[
-			"/home/Exodus/projects/SimulationsInterface/src/simulationRegistery.cpp",
+			"/home/Exodus/projects/major/SI/SimulationsInterface/src/Simulation.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/Exodus/projects/SimulationsInterface/src/ui/controllers/SimulationController.cpp",
+			"/home/Exodus/projects/major/SI/SimulationsInterface/src/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/Exodus/projects/SimulationsInterface/src/utils/idGenerator.cpp",
+			"/home/Exodus/projects/major/SI/SimulationsInterface/src/memory/database.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/Exodus/projects/major/SI/SimulationsInterface/src/simulationRegistery.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/Exodus/projects/major/SI/SimulationsInterface/src/ui/controllers/SimulationController.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/Exodus/projects/major/SI/SimulationsInterface/src/utils/idGenerator.cpp",
 			"MU",
 			null
 		]
@@ -441,13 +463,14 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"/home/Exodus/projects/SimulationsInterface/build/.qt/rcc/qrc_SimulationsInterface_raw_qml_0.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/.qt/rcc/qrc_qmake_SimulationsInterface.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_qmlcache_loader.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/SimulationsInterface_autogen/mocs_compilation.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp",
-		"/home/Exodus/projects/SimulationsInterface/build/simulationsinterface_qmltyperegistrations.cpp"
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/rcc/qrc_SimulationsInterface_raw_qml_0.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/rcc/qrc_qmake_SimulationsInterface.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_qmlcache_loader.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui/Main_qml.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/.rcc/qmlcache/SimulationsInterface_src/ui/components/SimulationListItem_qml.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterface_autogen/mocs_compilation.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterfaceplugin_autogen/mocs_compilation.cpp",
+		"/home/Exodus/projects/major/SI/SimulationsInterface/build/simulationsinterface_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,

@@ -5,4 +5,5 @@ classname SimulationsInterfacePlugin
 typeinfo SimulationsInterface.qmltypes
 prefer :/SimulationsInterface/
 Main 1.0 src/ui/Main.qml
+SimulationListItem 1.0 src/ui/components/SimulationListItem.qml
 

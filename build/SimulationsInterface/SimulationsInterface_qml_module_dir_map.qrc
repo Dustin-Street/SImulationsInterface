@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="/">
-    <file alias="/SimulationsInterface">/home/Exodus/projects/SimulationsInterface/build/SimulationsInterface</file>
+    <file alias="/SimulationsInterface">/home/Exodus/projects/major/SI/SimulationsInterface/build/SimulationsInterface</file>
 
   </qresource>
 </RCC>

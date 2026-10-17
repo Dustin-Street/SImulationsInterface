@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/simulationsinterface.dir/src/Simulation.cpp.o.d"
   "CMakeFiles/simulationsinterface.dir/src/main.cpp.o"
   "CMakeFiles/simulationsinterface.dir/src/main.cpp.o.d"
+  "CMakeFiles/simulationsinterface.dir/src/memory/database.cpp.o"
+  "CMakeFiles/simulationsinterface.dir/src/memory/database.cpp.o.d"
   "CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o"
   "CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o.d"
   "CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o"

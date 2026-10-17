@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Exodus/projects/SimulationsInterface
+CMAKE_SOURCE_DIR = /home/Exodus/projects/major/SI/SimulationsInterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Exodus/projects/SimulationsInterface/build
+CMAKE_BINARY_DIR = /home/Exodus/projects/major/SI/SimulationsInterface/build
 
 # Utility rule file for SimulationsInterface_copy_qml.
 
@@ -69,9 +69,10 @@ include CMakeFiles/SimulationsInterface_copy_qml.dir/progress.make
 CMakeFiles/SimulationsInterface_copy_qml: .qt/SimulationsInterface_qml.txt
 
 .qt/SimulationsInterface_qml.txt: /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
-.qt/SimulationsInterface_qml.txt: /home/Exodus/projects/SimulationsInterface/src/ui/Main.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying SimulationsInterface qml sources into build dir"
-	/usr/bin/cmake -DFILES_INFO_PATH=/home/Exodus/projects/SimulationsInterface/build/.qt/SimulationsInterface_qml.cmake -P /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
+.qt/SimulationsInterface_qml.txt: /home/Exodus/projects/major/SI/SimulationsInterface/src/ui/Main.qml
+.qt/SimulationsInterface_qml.txt: /home/Exodus/projects/major/SI/SimulationsInterface/src/ui/components/SimulationListItem.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying SimulationsInterface qml sources into build dir"
+	/usr/bin/cmake -DFILES_INFO_PATH=/home/Exodus/projects/major/SI/SimulationsInterface/build/.qt/SimulationsInterface_qml.cmake -P /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 
 CMakeFiles/SimulationsInterface_copy_qml.dir/codegen:
 .PHONY : CMakeFiles/SimulationsInterface_copy_qml.dir/codegen
@@ -90,6 +91,6 @@ CMakeFiles/SimulationsInterface_copy_qml.dir/clean:
 .PHONY : CMakeFiles/SimulationsInterface_copy_qml.dir/clean
 
 CMakeFiles/SimulationsInterface_copy_qml.dir/depend:
-	cd /home/Exodus/projects/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build /home/Exodus/projects/SimulationsInterface/build/CMakeFiles/SimulationsInterface_copy_qml.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/Exodus/projects/major/SI/SimulationsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build /home/Exodus/projects/major/SI/SimulationsInterface/build/CMakeFiles/SimulationsInterface_copy_qml.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SimulationsInterface_copy_qml.dir/depend
 
